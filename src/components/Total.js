@@ -8,4 +8,10 @@ const Total = props => {
   );
 };
 
+const mapStateToProps = state => {
+  return {
+    car: state.car
+  }
+}
+
 export default Total;
